@@ -1,0 +1,32 @@
+/* Custom styles for wallet adapter */
+.wallet-adapter-button-trigger {
+  display: none !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 1rem !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background-color: #d35400 !important;
+}
+
+.wallet-adapter-modal-title {
+  color: #8b4513 !important;
+}
+
+/* Dark mode styles */
+.dark .wallet-adapter-modal-wrapper {
+  background-color: #1f2937 !important;
+  color: white !important;
+}
+
+.dark .wallet-adapter-modal-title {
+  color: #f39c12 !important;
+}
+
+.dark .wallet-adapter-modal-content {
+  color: #e5e7eb !important;
+}
